@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="photoonline"
+  id="myeclipse.1282881892695"
+  context-root="/photoonline"
+  j2ee-spec="5.0"
+  archive="photoonline.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
