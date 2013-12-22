@@ -5,7 +5,7 @@ public class Open_DB {
 //数据库用户名
 String user="root";
 //数据库密码
-String password="root";
+String password="123456";
 //所以连接的数据库的地址
 String url="jdbc:mysql://localhost:3306/photos";
 //数据库的连接对象

@@ -3,6 +3,9 @@
 <html>
 <head>
 <title>µç×ÓÏà²á</title>
+<style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <script type="text/javascript">
 <!--
 function MM_swapImgRestore() { //v3.0
@@ -30,20 +33,20 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('../myjsp/lo4go_01.gif','../myjsp/lo4go_02.gif','../myjsp/lo4go_03.gif')">
+<body onLoad="MM_preloadImages('/image/01.gif','../myjsp/lo4go_02.gif','../myjsp/lo4go_03.gif')">
 
 <div align="center">
   <table width="1000" border="0" cellpadding="0" cellspacing="0">
     <!--DWLayoutTable-->
     <tr>
-      <td height="154" colspan="5" valign="top"><img src="../myjsp/logo_01.gif" width="1000" height="154" /></td>
+      <td height="154" colspan="5" valign="top"><img src="images/11.jpg" width="1000" height="154" /></td>
     </tr>
     <tr>
-      <td width="28" height="33" valign="top"><img src="../myjsp/logo_02.gif" width="28" height="33" /></td>
-      <td width="80" valign="top"><a href="index.jsp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../myjsp/lo4go_01.gif',1)"><img src="../myjsp/lo1go_01.gif" name="Image3" width="80" height="33" border="0" id="Image3" /></a></td>
-      <td width="81" valign="top"><a href="normal/users.jsp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../myjsp/lo4go_02.gif',1)"><img src="../myjsp/lo1go_02.gif" name="Image4" width="81" height="33" border="0" id="Image4" /></a></td>
-      <td width="84" valign="top"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../myjsp/lo4go_03.gif',1)"><img src="../myjsp/lo1go_03.gif" name="Image5" width="84" height="33" border="0" id="Image5" /></a></td>
-      <td width="727" valign="top"><img src="../myjsp/logo_06.gif" width="727" height="33" /></td>
+      <td width="28" height="33" valign="top"><img src="images/01.gif" width="28" height="33" /></td>
+      <td width="80" valign="top"><a href="index.jsp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/22.gif',1)"><img src="images/02.gif" name="Image3" width="80" height="33" border="0" id="Image3" /></a></td>
+      <td width="81" valign="top"><a href="normal/users.jsp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/33.gif',1)"><img src="images/03.gif" name="Image4" width="81" height="33" border="0" id="Image4" /></a></td>
+      <td width="84" valign="top"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/44.gif',1)"><img src="images/04.gif" name="Image5" width="84" height="33" border="0" id="Image5" /></a></td>
+      <td width="727" valign="top"><img src="images/05.gif" width="727" height="33" /></td>
     </tr>
   </table>
   
@@ -52,7 +55,7 @@ function MM_swapImage() { //v3.0
 <td width="740" bgcolor="#E6E0BB">
 <%@include file="change_images.jsp" %>
 </td>
-<td width="260" bgcolor="#EFCCCC" height="300" valign="top"><%@ include file="user_login.jsp" %></td>
+<td width="260" bgcolor="#FFDEAD" height="300" valign="top"><%@ include file="user_login.jsp" %></td>
 </tr>
 </table>
 </div>

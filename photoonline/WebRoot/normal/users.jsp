@@ -65,15 +65,15 @@ if(sysRole==0){
 <div align="center">
 <table id="__01" width="1000" height="100" border="0" cellpadding="0" cellspacing="0">
 	<tr>
-		<td colspan="3"><img src="../../myjsp/personal_01.gif" width="1000" height="32" /></td>
+		<td colspan="3"><img src="..\images\personal_01.gif" width="1000" height="32" /></td>
   </tr>
 	<tr>
-		<td rowspan="2"><img src="../../myjsp/personal_02.gif" width="44" height="68" /></td>
-<td><a href="../index.jsp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','../../myjsp/p4.gif',1)"><img src="../../myjsp/personal_03.gif" name="Image17" width="96" height="41" border="0" id="Image17" /></a></td>
-<td rowspan="2"><img src="../../myjsp/personal_04.gif" width="860" height="68" /></td>
+		<td rowspan="2"><img src="..\images\personal_02.gif" width="44" height="68" /></td>
+<td><a href="../index.jsp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','images\333.gif',1)"><img src="..\images\personal_03.gif" name="Image17" width="96" height="41" border="0" id="Image17" /></a></td>
+<td rowspan="2"><img src="..\images\personal_04.gif" width="860" height="68" /></td>
   </tr>
 	<tr>
-		<td><img src="../../myjsp/personal_05.gif" width="96" height="27" /></td>
+		<td><img src="..\images\personal_05.gif" width="96" height="27" /></td>
   </tr>
 </table>
   <table width="1000" border="0" cellpadding="0" cellspacing="0">
@@ -126,6 +126,28 @@ if(sysRole==0){
            
            
         <tr>
+          <td height="10" valign="top"></td>
+          </tr>
+        <tr>
+          <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#0000FF">
+            <!--DWLayoutTable-->
+            <tr>
+              <td height="1" width="60" valign="top" bgcolor="#9933cc"></td>
+              <td height="1" valign="top" width="80" bgcolor="#000000"></td>
+              <td height="1" width="60" valign="top" bgcolor="#9933cc"></td>
+              
+              </tr>
+            </table>
+            </td>
+            <tr>
+            <td height="10" valign="top"></td>
+          </tr>
+        <tr>
+          <td height="20" valign="top"><a href="findphotos.jsp"><div align="center">【按评论搜索照片】</div></a></td>
+          </tr>
+          
+        
+           <tr>
           <td height="10" valign="top"></td>
           </tr>
         <tr>

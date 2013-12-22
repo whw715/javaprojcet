@@ -6,6 +6,9 @@
 <head>
 <title>ЙѕіэПаІб</title>
 </head>
+<style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <body>
 <%
 String s_AlbumID=request.getParameter("AlbumID");

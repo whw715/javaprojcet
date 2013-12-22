@@ -4,7 +4,9 @@
 <html>
 <head>
 <title>¥¥Ω®œ‡≤·</title>
-</head>
+</head><style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <body>
 <% 
 try{

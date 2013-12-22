@@ -5,7 +5,9 @@
 <html>
 <head>
 <title>œ‡∆¨</title>
-</head>
+</head><style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <body>
 <div align="center">
 <%

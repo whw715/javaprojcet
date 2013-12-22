@@ -5,6 +5,9 @@
 <html>
 <head>
 <title>修改相册信息</title>
+<style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <script language="javascript">
 function check(){
 	var AlbumName=id.AlbumName.value;

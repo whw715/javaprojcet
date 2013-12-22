@@ -5,7 +5,9 @@
 <html>
 <head>
 <title>œ‘ æœ‡≤·Õº∆¨</title>
-</head>
+</head><style>
+body{ background:url(../images/13.jpg) repeat-x center top;}
+</style>
 <body>
 <%
 String s_AlbumID=request.getParameter("AlbumID");

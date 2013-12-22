@@ -3,19 +3,24 @@
 <head>
 <title>添加相册类型</title>
 <script type="text/javascript">
-function check(){
+function check()
+{
 	var AlbumType=id.AlbumType.value;
-	if(AlbumType==""){
+	if(AlbumType=="")
+	{
 		alert("相片类型不能为空！");
 		return false;
-	}else{
+	}
+	else
+	{
 		return true;
+	}
 }
 </script>
 </head>
 <body>
 <div align="center">
-<form action="add_type.jsp" name="id" method="post" onclick="return check()">
+<form action="add_type.jsp" name="id" method="post" onclick= "return check()">
 <br/>
 <br/>
 <br/>

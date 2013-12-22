@@ -3,7 +3,9 @@
 <jsp:useBean scope="page" id="albumtype" class="photoOnline.Album_Type"/>
 <html>
 <head>
-<title>创建相册</title>
+<title>创建相册</title><style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <script language="javascript">
 function check(){
 	var AlbumTypeID=id.AlbumTypeID.value;

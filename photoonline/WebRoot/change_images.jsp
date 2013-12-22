@@ -14,18 +14,13 @@ if(i==6)i=0;
 var oImage=document.getElementById('image');
 var oLabel=document.getElementById('info');
 oImage.src='images/'+images[i]; //为img标签的src属性赋值
-oLabel.innerText=images[i]; //显示当前的图像文件名
 }
 </script>
 <body>
 <div align="center">
 <font color="white"><label id="info"></label></font>
 <p/>
-<img src="images/01.jpg" id="image" width="400" height="400"/>
-<script type="text/javascript">
-var oLabel=document.getElementById('info');
-oLabel.innerText=images[i];
-</script>
+<img src="images/01.jpg" id="image" width="750" height="500"/>
 </div>
 </body>
 </html>

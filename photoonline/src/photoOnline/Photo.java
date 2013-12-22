@@ -117,4 +117,16 @@ public class Photo extends Execute_DB {
 		return rs;
 	}
 
+
+//获取相片DES对应的所有相片
+	public ResultSet get_ph(){
+		this.strSql="select * from Photo where PhotoDes='"+this.PhotoDes+"'";
+		ResultSet rs=null;
+		try{
+			rs=super.exeSqlQuery(this.strSql);
+		}catch(Exception e){
+			System.out.println(e);
+		}
+		return rs;
+	}
 }

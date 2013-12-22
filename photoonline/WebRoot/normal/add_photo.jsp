@@ -4,8 +4,9 @@
 <html>
 <head>
 <title>图片信息上传</title>
-</head>
-<body bgcolor="#F4FFFFE">
+</head><style>
+body{ background:url(../images/13.jpg) repeat-x center top;}
+</style>
 <% 
 try{
 //新建一个smartUpload对象

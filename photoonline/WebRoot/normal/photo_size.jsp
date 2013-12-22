@@ -18,6 +18,7 @@ if(photo.init()){
 <%
 }
 %>
+
 </div>
 </body>
 </html>

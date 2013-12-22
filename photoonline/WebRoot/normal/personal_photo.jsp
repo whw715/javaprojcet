@@ -6,6 +6,9 @@
 <head>
 <title>ÏàÆ¬</title>
 </head>
+<style>
+body{ background:url(images/13.jpg) repeat-x center top;}
+</style>
 <body>
 <div align="center">
 <%
@@ -29,17 +32,20 @@ if(rs2.next()){
 		<br/>
 		£¨<font color="#8828d2"><%=rs2.getString("PhotoDes") %>£©</font><br/>
 		<a href='modify_photo.jsp?PhotoID=<%=rs2.getInt("PhotoID") %>' target="_self">±à¼­</a>&nbsp;
-		<a href='delete_photo.jsp?PhotoID=<%=rs2.getInt("PhotoID") %>' target="_self">É¾³ý</a>
+		<a href='delete_photo.jsp?PhotoID=<%=rs2.getInt("PhotoID") %>' target="_self">É¾³ý</a>&nbsp;
+		<a href="http://xiuxiu.web.meitu.com/">~ÕÕÆ¬ÃÀ»¯~</a>&nbsp;&nbsp;
 		</td>
 		<%
 }
 %>
+
 <%
 }
 }
 %>
 	</tr>
 	
+
 </table>
 </div>
 </body>
